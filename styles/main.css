@@ -1,0 +1,100 @@
+@font-face {
+	font-family:NAV_FONT; 
+	src: url("FjallaOne-Regular.ttf");
+}
+body{
+background: #f7f7f7;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+DIV{
+	box-sizing: border-box;
+}
+#page{
+	width: 960px;
+	margin: 0 auto;
+	background: #f3eded;
+	
+}
+#pageHeader{ height: 123px; width: 960px; margin: 0;}
+#pageHeader .line{
+	background: #fff;
+	height: 30px;
+	width: 100%;
+	border-bottom: 2px solid #db2623;
+}
+#pageContent{
+	width: 960px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei", SimHei;
+	background-color: white;
+}
+#pageHeader .logo{margin:-20px 0 0px 0px; float: left;border-left: 8px solid #db2623;}
+#pageHeader .nav{ color: #fff; float: left; width: 790px; height: 50px; background:#db2623;margin:-3px 0 0 9px; }
+#pageHeader .nav li{ float: left; margin-left: 12%;}
+#pageHeader .nav li a{ display: block; line-height: 50px;padding-top: 3px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 26px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: NAV_FONT;
+}
+/*#pageHeader .nav li.c2{ margin-top: 60px;}
+#pageHeader .nav li.c3{ margin-top: 40px;}
+#pageHeader .nav li.c4{ margin-top: 20px;}*/
+
+#pageBottom {text-align: center; background: #FFFFFF; bottom: 0; width: 100%;border-right: 8px solid #db2623;}
+#pageBottom .line{ background: #db2623; height: 1px; width: 100%;}
+#pageBottom .icp{ margin: 0 auto;padding: 8px 0;font-family: "Lucida Grande", Lucida, Verdana, sans-serif;color: #000;
+}
+
+#about{
+	border-top: 1px solid #db2623;
+	border-right: 8px solid #db2623;
+	overflow: hidden;
+	 width: 100%;
+	box-sizing: border-box;
+}
+#services{
+	border-top: 1px solid #db2623;
+	border-left: 8px solid #db2623;
+	 width: 100%;
+	 padding: 50px;
+}
+#services ul{
+	list-style: square;
+	margin-left: 20px;
+}
+#services ul li{
+	padding: 10px;
+	color: #0d0dc6;
+}
+#services p{
+	padding: 10px 0;
+	font-size: 22px;
+}
+#cases{
+	border-top: 1px solid #db2623;
+	border-right: 8px solid #db2623;
+	 width: 100%;
+}
+#contact{
+	border-top: 1px solid #db2623;
+	border-left: 8px solid #db2623;
+	 width: 100%;
+}
+#about .manifesto{
+	font-size: 40px;
+	padding: 70px 0px 30px 140px;
+	color: green;
+	text-shadow: 0 0 3px #fdf77f;
+	/*-webkit-transform: rotate(-15deg);*/
+}
+.info{
+	text-indent: 36px;
+	padding: 30px;
+	line-height: 30px;
+}
